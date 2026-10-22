@@ -1,6 +1,6 @@
 # Bioinformatics Agent Skills
 
-[![Tests](https://github.com/talharaziq/Advanced-Bioinformatics/actions/workflows/test.yml/badge.svg)](https://github.com/talharaziq/Advanced-Bioinformatics/actions/workflows/test.yml)
+[![Tests](https://github.com/talharaziq/bioinformatics-agent-skills/actions/workflows/test.yml/badge.svg)](https://github.com/talharaziq/bioinformatics-agent-skills/actions/workflows/test.yml)
 
 **A practical, executable collection of agent skills for common bioinformatics tasks.** Each skill includes the open `SKILL.md` format, decision rules, quality gates, and helper scripts. The core command-line tools use Python's standard library, so basic sequence QC, matrix QC, manifest validation, and local pathway over-representation analysis do not require a large Python stack.
 

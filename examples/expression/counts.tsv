@@ -1,0 +1,9 @@
+gene_id	ctrl1	ctrl2	treat1	treat2
+geneA	100	110	500	520
+geneB	300	280	270	260
+geneC	0	1	20	18
+geneD	50	45	55	53
+geneE	0	0	0	1
+geneF	900	870	920	950
+geneG	8	7	100	120
+geneH	40	42	39	41

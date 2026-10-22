@@ -1,0 +1,5 @@
+sample_id	condition	fastq_r1	fastq_r2	batch
+ctrl1	control	../sequences/ctrl1_R1.fastq		b1
+ctrl2	control	../sequences/ctrl2_R1.fastq		b2
+treat1	treatment	../sequences/treat1_R1.fastq		b1
+treat2	treatment	../sequences/treat2_R1.fastq		b2

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bioinformatics-agent-skills"
+version = "1.0.0"
+description = "Executable bioinformatics workflows packaged as open agent skills"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Talha Raziq" }]
+keywords = ["bioinformatics", "agent-skills", "RNA-seq", "GEO", "single-cell", "pathway-enrichment"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = []
+
+[project.optional-dependencies]
+geo = ["GEOparse>=2.0.4"]
+single-cell = ["scanpy>=1.10", "python-igraph>=0.11", "leidenalg>=0.10", "matplotlib>=3.8"]
+test = ["coverage>=7.0"]
+
+[project.scripts]
+bio-skills = "bioskills.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

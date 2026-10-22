@@ -1,0 +1,4 @@
+TOY_CELL_CYCLE	synthetic teaching set	geneA	geneB	geneC	geneD
+TOY_DNA_REPAIR	synthetic teaching set	geneA	geneB	geneE	geneF
+TOY_STRESS_RESPONSE	synthetic teaching set	geneD	geneG	geneH	geneI
+TOY_METABOLISM	synthetic teaching set	geneI	geneJ	geneK	geneL

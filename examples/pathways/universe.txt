@@ -1,0 +1,12 @@
+geneA
+geneB
+geneC
+geneD
+geneE
+geneF
+geneG
+geneH
+geneI
+geneJ
+geneK
+geneL

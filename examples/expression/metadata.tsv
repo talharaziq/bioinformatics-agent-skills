@@ -1,0 +1,5 @@
+sample_id	condition	batch
+ctrl1	control	b1
+ctrl2	control	b2
+treat1	treatment	b1
+treat2	treatment	b2

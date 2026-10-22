@@ -1,0 +1,1 @@
+This folder intentionally contains no downloaded GEO study. `geo-fetch` retrieves the exact accession that the user selects; add public-study fixtures here only when the data license and redistribution permissions are documented.
